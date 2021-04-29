@@ -1,0 +1,124 @@
+:root {
+    --placeholder-color: rgb(90, 72, 47); 
+}
+img {
+    display: list-item;
+    margin: auto;
+    border: 4px solid rgb(100, 81, 56);
+    box-shadow: 8px 8px 2px rgba(0, 0, 0, 0.404);
+}
+table {
+    margin: auto;
+    margin-top: 15px;
+    background-color: rgba(128, 104, 72, 0.829);
+    padding: 100px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    border-radius: 100px 100px 40px 40px;
+    display: none;
+}
+h1 {
+    letter-spacing: 30px;
+    text-align: center;
+    color: rgb(58, 47, 33);
+    font-size: 45pt;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 0px;
+}
+h2 {
+    text-align: center;
+    margin: none;
+    margin-top: 15px;
+    height: 10px;
+    line-height: 10px;
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 3px;
+}
+h3 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 40px;
+    height:40px;
+    letter-spacing: 10px;
+    font-size: 30pt;
+    text-align: center;
+    color:rgba(107, 87, 60, 0.788);
+}
+#bgImg {
+    position: relative;
+    background-color: rgb(122, 100, 69);
+    width: 750px;
+    height: 140px;
+    z-index: -1;
+    left: 300px;
+}
+body {
+    font-family: "Cairo", sans-serif;
+    background-image: url("https://mars.nasa.gov/msl-raw-images/msss/01000/mcam/1000MR0044630060503566E02_DXXX.jpg");
+    background-size: cover;
+}
+div {
+    margin:auto;
+    width:fit-content;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 0;
+}
+input {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    font-family: "Cairo", sans-serif;
+    font-size: 20pt;
+    background-color: rgb(180, 148, 102);
+    color: rgb(90, 72, 47);
+    box-shadow: 0 0 0 3px inset rgb(90, 72, 47);
+    border:none;
+    padding-left: 4px;
+    z-index: 1;
+}
+button {
+    height: 40px;
+    width:fit-content;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-size: 16pt;
+    text-align: center;
+    background-color: rgb(122, 100, 69);
+    border: none;
+    font-family: "Cairo", sans-serif;
+    color: rgb(170, 139, 96);
+    line-height: 40px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    var(--placeholder-color);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    var(--placeholder-color);
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    var(--placeholder-color);
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    var(--placeholder-color);
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    var(--placeholder-color);
+}
+::placeholder { /* Most modern browsers support this now. */
+   color:    var(--placeholder-color);
+}
